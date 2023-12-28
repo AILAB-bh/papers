@@ -4,8 +4,9 @@ Paper presentation, poster and material published
  ## Controllable Image Synthesis of Industrial Data Using Stable Diffusion - Gabriele Valvano, Antonino Agostino, Giovanni De Magistris, Antonino Graziano, Giacomo Veneri - 2024 - Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 
  
  [link](https://openaccess.thecvf.com/content/WACV2024/papers/Valvano_Controllable_Image_Synthesis_of_Industrial_Data_Using_Stable_Diffusion_WACV_2024_paper.pdf)
+ [materia](https://github.com/AILAB-bh/papers/releases/tag/1.2)
 
----
+```
  @InProceedings{Valvano_2024_WACV,
     author    = {Valvano, Gabriele and Agostino, Antonino and De Magistris, Giovanni and Graziano, Antonino and Veneri, Giacomo},
     title     = {Controllable Image Synthesis of Industrial Data Using Stable Diffusion},
@@ -14,11 +15,24 @@ Paper presentation, poster and material published
     year      = {2024},
     pages     = {5354-5363}
 }
----
+```
  
  ## Combining Thermodynamics-based Model of the Centrifugal Compressors and Active Machine Learning for Enhanced Industrial Design Optimization - S Ghiasi, G Pazzi, C Del Grosso, G De Magistris, G Veneri - 1st workshop on Synergy of Scientific and Machine Learning Modeling, SynS - 2023 
  
  [link](https://openreview.net/pdf?id=bZ5br8JcTS)
+
+![Poster](Ghiasi_2023_ICML/)
+ 
+```
+@inproceedings{Ghiasi_2023_ICML,
+author = {Ghiasi, Shadi and Pazzi, Guido and Grosso, Concettina and Magistris, Giovanni and Veneri, Giacomo},
+year = {2023},
+month = {07},
+pages = {},
+title = {Combining Thermodynamics-based Model of the Centrifugal Compressors and Active Machine Learning for Enhanced Industrial Design Optimization},
+booktitle = {1st workshop on Synergy of Scientific and Machine Learning Modeling, SynS & ML (ICML)}
+}
+```
  
  ## Sensor virtualization for anomaly detection of turbo-machinery sensors - An industrial application - S Shetty, V Gori, G Veneri - 9th International conference on Time Series and Forecasting - ITISE2023        2023 
  
