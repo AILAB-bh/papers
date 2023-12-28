@@ -4,7 +4,22 @@ Paper presentation, poster and material published
  ## Controllable Image Synthesis of Industrial Data Using Stable Diffusion - Gabriele Valvano, Antonino Agostino, Giovanni De Magistris, Antonino Graziano, Giacomo Veneri - 2024 - Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 
  
  [link](https://openaccess.thecvf.com/content/WACV2024/papers/Valvano_Controllable_Image_Synthesis_of_Industrial_Data_Using_Stable_Diffusion_WACV_2024_paper.pdf)
- [materia](https://github.com/AILAB-bh/papers/releases/tag/1.2)
+ [material](https://github.com/AILAB-bh/papers/releases/tag/1.2)
+
+
+Training supervised deep neural networks that perform defect detection and segmentation requires large-scale
+fully-annotated datasets, which can be hard or even impossible to obtain in industrial environments. Generative AI
+offers opportunities to enlarge small industrial datasets artificially, thus enabling the usage of state-of-the-art supervised approaches in the industry. Unfortunately, also good
+generative models need a lot of data to train, while industrial datasets are often tiny. Here, we propose a new approach for reusing general-purpose pre-trained generative
+models on industrial data, ultimately allowing the generation of self-labelled defective images. First, we let the model
+learn the new concept, entailing the novel data distribution.
+Then, we force it to learn to condition the generative process, producing industrial images that satisfy well-defined
+topological characteristics and show defects with a given
+geometry and location. To highlight the advantage of our
+approach, we use the synthetic dataset to optimise a crack
+segmentor for a real industrial use case. When the available data is small, we observe considerable performance
+increase under several metrics, showing the method’s potential in production environments.
+
 
 ```
  @InProceedings{Valvano_2024_WACV,
