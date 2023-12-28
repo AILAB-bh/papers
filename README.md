@@ -21,7 +21,7 @@ Paper presentation, poster and material published
  
  [link](https://openreview.net/pdf?id=bZ5br8JcTS)
 
-![Poster](Ghiasi_2023_ICML/)
+![Poster](Ghiasi_2023_ICML/poster.png)
  
 ```
 @inproceedings{Ghiasi_2023_ICML,
@@ -37,6 +37,24 @@ booktitle = {1st workshop on Synergy of Scientific and Machine Learning Modeling
  ## Sensor virtualization for anomaly detection of turbo-machinery sensors - An industrial application - S Shetty, V Gori, G Veneri - 9th International conference on Time Series and Forecasting - ITISE2023        2023 
  
  [link](https://www.mdpi.com/2673-4591/39/1/96)
+ 
+ ```
+ @Article{Shetty_2023_ITISE,
+AUTHOR = {Shetty, Sachin and Gori, Valentina and Bagni, Gianni and Veneri, Giacomo},
+TITLE = {Sensor Virtualization for Anomaly Detection of Turbo-Machinery Sensors&mdash;An Industrial Application},
+JOURNAL = {Proceedings of The 9th International Conference on Time Series and Forecasting},
+VOLUME = {39},
+YEAR = {2023},
+NUMBER = {1},
+ARTICLE-NUMBER = {96},
+URL = {https://www.mdpi.com/2673-4591/39/1/96},
+ISSN = {2673-4591},
+ABSTRACT = {We apply a Granger causality and auto-correlation analysis to train a recurrent neural network (RNN) that acts as a virtual sensor model. These models can be used to check the status of several hundreds of sensors during turbo-machinery units&rsquo; operation. Checking the health of each sensor is a time-consuming activity. Training a supervised algorithm is not feasible because we do not know all the failure modes that the sensors can undergo. We use a semi-supervised approach and train an RNN (LSTM) on non-anomalous data to build a virtual sensor using other sensors as regressors. We use the Granger causality test to identify the set of input sensors for a given target sensor. Moreover, we look at the auto-correlation function (ACF) to understand the temporal dependency in data. We then compare the predicted signal vs. the real one to raise (in case) an anomaly in real time. Results report 96% precision and 100% recall.},
+DOI = {10.3390/engproc2023039096}
+}
+ ```
+
+![Poster](Shetty_2023_ITISE/poster.png)
 
 ## Document Layout Analysis with Variational Autoencoders: An Industrial Application - A Youssef, G Valvano, G Veneri - ISMIS 2022. Lecture Notes in Computer Science 13515        2022 
 
@@ -50,9 +68,31 @@ booktitle = {1st workshop on Synergy of Scientific and Machine Learning Modeling
 
 [link](https://syns-ml.github.io/2023/assets/papers/24.pdf) - [arxiv](https://arxiv.org/pdf/2208.02840.pdf)
 
+ ```
+@article{Murugesan_2022_ICML,
+  title={Deep Surrogate of Modular Multi Pump using Active Learning},
+  author={Murugesan, Malathi and Goyal, Kanika and Barriere, Laure and Pasquotti, Maura and Veneri, Giacomo and De Magistris, Giovanni},
+  year = {2022},
+booktitle = {Workshop on Adaptive Experimental Design and Active Learning in the Real World (ICML2022)}
+}
+ ```
+
 ## DANNTe: a case study of a turbo-machinery sensor virtualization under domain shift - L Strazzera, V Gori, G Veneri - Distribution shifts: connecting methods and applications (DistShift) - NEURIPS    2    2021 
 
 [arxiv](https://arxiv.org/pdf/2201.03850.pdf)
+
+![Poster](Strazzera_2021_NEURIPS/poster.png)
+
+
+ ```
+@inproceedings{Strazzera_2021_NEURIPS,
+title={{DANNT}e: a case study of a turbo-machinery sensor virtualization under domain shift},
+author={Luca Strazzera and Valentina Gori and Giacomo Veneri},
+booktitle={NeurIPS 2021 Workshop on Distribution Shifts: Connecting Methods and Applications},
+year={2021},
+url={https://openreview.net/forum?id=zHVg1w2Fh8O}
+}
+ ```
 
 ## Learning to Identify Drilling Defects in Turbine Blades with Single Stage Detectors - A Panizza, ST Stefanek, S Melacci, G Veneri, M Gori - Machine Learning for Engineering Modeling, Simulation, and Design Workshop 2020 
 
